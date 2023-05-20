@@ -32,7 +32,7 @@ public class WhatsappRepository {
 
         //if user mobNo alraedy exist in database thor exception
         if(userMobile.contains(mobile)){
-            throw new Exception("User already exist");
+            throw new Exception("User already exists");
         }
 
         userMobile.add(mobile);
